@@ -5,7 +5,16 @@ import { NewsService } from "../../newsapi/services/newsServices";
 export const Card = ({ title, urlToImage, content, url }) => {
   const handleAddToReadLater = () => {
     const newsService = new NewsService();
-    newsService.addToReadLater({ title, urlToImage, content, url });
+    newsService
+      .addToReadLater({ title, urlToImage, content, url })
+      .then((data) => {
+        console.log(data);
+        if (!data) {
+          alert("error");
+        } else {
+          alert(`${data.title.slice(0, 30).concat("...")} added to read later`);
+        }
+      });
   };
 
   return (
