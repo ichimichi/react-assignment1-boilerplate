@@ -1,4 +1,4 @@
-import { Card } from "./../components/card/Card";
+import { Card } from "./../Components/card/Card";
 // please add your test cases here
 import React from "react";
 import { render, unmountComponentAtNode } from "react-dom";

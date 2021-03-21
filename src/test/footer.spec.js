@@ -1,4 +1,4 @@
-import { Footer } from "./../components/footer/Footer";
+import { Footer } from "./../Components/footer/Footer";
 // please add your test cases here
 import React from "react";
 import { render, unmountComponentAtNode } from "react-dom";
