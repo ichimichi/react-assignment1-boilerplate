@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
-import { Dashboard } from "./components/dashboard/Dashboard.jsx";
-import { Footer } from "./components/footer/Footer.jsx";
-import { Header } from "./components/header/Header.jsx";
+import { Dashboard } from "./Components/dashboard/Dashboard.jsx";
+import { Footer } from "./Components/footer/Footer.jsx";
+import { Header } from "./Components/header/Header.jsx";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import { Col } from "react-bootstrap";

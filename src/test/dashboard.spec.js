@@ -1,4 +1,4 @@
-import { Dashboard } from "./../components/dashboard/Dashboard";
+import { Dashboard } from "../Components/dashboard/Dashboard";
 // please add your test cases here
 import React from "react";
 import { render, unmountComponentAtNode } from "react-dom";
