@@ -24,3 +24,5 @@ it("render Card", () => {
   });
   expect(container.querySelector("div")).not.toBeNull();
 });
+
+export default Dashboard;

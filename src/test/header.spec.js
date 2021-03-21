@@ -24,3 +24,5 @@ it("render Header", () => {
   });
   expect(container.textContent).toBe("News App");
 });
+
+export default Header;

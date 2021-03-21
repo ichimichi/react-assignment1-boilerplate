@@ -24,3 +24,5 @@ it("render Footer", () => {
   });
   expect(container.textContent).toBe("News App @2020");
 });
+
+export default Footer;

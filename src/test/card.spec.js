@@ -34,3 +34,5 @@ it("render Card", () => {
   });
   expect(container.textContent).toBe("testRead Later");
 });
+
+export default Card;
