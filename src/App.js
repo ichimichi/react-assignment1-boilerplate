@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import { Dashboard } from "./Components/dashboard/Dashboard.jsx";
-import { Footer } from "./Components/footer/Footer.jsx";
-import { Header } from "./Components/header/Header.jsx";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import { Col } from "react-bootstrap";
+import { Dashboard } from "./Components/dashboard/Dashboard";
+import { Header } from "./Components/header/Header";
+import { Footer } from "./Components/footer/Footer";
 
 class App extends React.Component {
   render() {
