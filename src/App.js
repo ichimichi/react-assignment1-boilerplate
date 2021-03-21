@@ -3,8 +3,8 @@ import "./App.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import { Col } from "react-bootstrap";
-import { Dashboard } from "./Components/dashboard/Dashboard";
 import { Header } from "./Components/header/Header";
+import { Dashboard } from "./Components/dashboard/Dashboard";
 import { Footer } from "./Components/footer/Footer";
 
 class App extends React.Component {

@@ -1,9 +1,9 @@
-import { Footer } from "./../Components/footer/Footer";
 // please add your test cases here
 import React from "react";
 import { render, unmountComponentAtNode } from "react-dom";
 
 import { act } from "react-dom/test-utils";
+import { Footer } from "../Components/footer/Footer";
 
 let container = null;
 
